@@ -312,8 +312,8 @@ var obj = {
 
 ### ignoredNodes
 
-The "ignoredNodes" object property is optional (default: []).
-
+The "ignoredNodes" object property is optional (default: []).  
+Allowed values are: `ObjectExpression`, `ObjectPattern`, `ImportDeclaration`, `ExportNamedDeclaration`, `ExportAllDeclaration`, `TSTypeLiteral`, `TSInterfaceBody`, `ClassBody`.  
 Examples of **correct** code for this rule with sample `{ "ignoredNodes": [] }` options:
 
 ::: correct
